@@ -109,6 +109,12 @@ export const workData = [
         bgImage: "/work-4.png",
         link: "https://julianjournalapp.netlify.app/",
     },
+    {
+        title: "Scooter App",
+        description: "Materiales Gráficos",
+        bgImage: "/work-5.png",
+        link: "https://www.behance.net/gallery/217499809/Scooter-App",
+    },
 ];
 
 export const serviceData = [
