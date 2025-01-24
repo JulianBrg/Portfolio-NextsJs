@@ -10,6 +10,10 @@ import firebase from "./firebase.png";
 import figma from "./figma.png";
 import git from "./git.png";
 import mongodb from "./mongodb.png";
+import canva from "./canva.png";
+import photoshop from "./photoshop.png";
+import html from "./html.png";
+import microsoft from "./microsoft.png";
 import right_arrow_white from "./right-arrow-white.png";
 import logo from "./logo.png";
 import logo_dark from "./logo_dark.png";
@@ -49,6 +53,10 @@ export const assets = {
     figma,
     git,
     mongodb,
+    canva,
+    photoshop,
+    html,
+    microsoft,
     right_arrow_white,
     logo,
     logo_dark,
@@ -78,54 +86,57 @@ export const assets = {
 
 export const workData = [
     {
-        title: "Frontend project",
-        description: "Web Design",
+        title: "Fems Center",
+        description: "Sitio Oficial",
         bgImage: "/work-1.png",
+        link: "https://www.femscenter.com",
     },
     {
-        title: "Geo based app",
-        description: "Mobile App",
+        title: "Fems en Acción",
+        description: "Sitio Web",
         bgImage: "/work-2.png",
+        link: "https://www.femsenaccion.com",
     },
     {
-        title: "Photography site",
-        description: "Web Design",
+        title: "Avante financiera",
+        description: "Maquetación Web",
         bgImage: "/work-3.png",
+        link: "https://avante-red.netlify.app/",
     },
     {
-        title: "UI/UX designing",
-        description: "UI/UX Design",
+        title: "Journal App",
+        description: "App Personal",
         bgImage: "/work-4.png",
+        link: "https://julianjournalapp.netlify.app/",
     },
 ];
 
 export const serviceData = [
     {
         icon: assets.web_icon,
-        title: "Web design",
-        description:
-            "Web development is the process of building, programming...",
+        title: "Diseño web",
+        description: "Desarrollo de sitios web con las últimas tecnologías...",
         link: "",
     },
-    {
-        icon: assets.mobile_icon,
-        title: "Mobile app",
-        description:
-            "Mobile app development involves creating software for mobile devices...",
-        link: "",
-    },
+    // {
+    //     icon: assets.mobile_icon,
+    //     title: "Desarrollo de aplicaciones móviles",
+    //     description:
+    //         "",
+    //     link: "",
+    // },
     {
         icon: assets.ui_icon,
-        title: "UI/UX design",
+        title: "Diseño UI/UX",
         description:
-            "UI/UX design focuses on creating a seamless user experience...",
+            "Elaboración de soluciones de diseño creativo para mejorar la comunicación visual...",
         link: "",
     },
     {
         icon: assets.graphics_icon,
-        title: "Graphics design",
+        title: "Materiales gráficos",
         description:
-            "Creative design solutions to enhance visual communication...",
+            "Creación de materiales gráficos para empresas y particulares...",
         link: "",
     },
 ];
@@ -157,4 +168,8 @@ export const toolsData = [
     assets.mongodb,
     assets.figma,
     assets.git,
+    assets.canva,
+    assets.photoshop,
+    assets.html,
+    assets.microsoft,
 ];

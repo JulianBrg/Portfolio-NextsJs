@@ -31,11 +31,12 @@ const Services = () => {
                 Ofrezco una amplia gama de servicios para ayudarle a hacer crecer su negocio. Si necesitas un nuevo sitio web, un rediseño de su sitio existente, o ayuda con su marketing online, puedo ayudarte.
             </motion.p>
 
+            
             <motion.div
                 initial={{ opacity: 0 }}
                 whileInView={{ opacity: 1 }}
                 transition={{ delay: 0.9, duration: 0.6 }}
-                className='grid grid-cols-auto gap-6 my-10'>
+                className='grid grid-cols-auto lg:grid-cols-3 gap-6 my-10 justify-center'> {/* // quitar el lg: si se va a agregar un card más */}
                 {serviceData.map(({ icon, title, description, link }, index) => (
                     <motion.div
                         whileHover={{ scale: 1.05 }}
