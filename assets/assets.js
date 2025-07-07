@@ -86,6 +86,12 @@ export const assets = {
 
 export const workData = [
     {
+        title: "Avanxa Soluciones",
+        description: "Sitio Oficial",
+        bgImage: "/work-6.webp",
+        link: "https://www.avanxasoluciones.com",
+    },
+    {
         title: "Fems Center",
         description: "Sitio Oficial",
         bgImage: "/work-1.png",
